@@ -1,0 +1,9 @@
+train: ./split_dataset/images/train  # 21000 images
+val: ./split_dataset/images/val  # 5000 images
+test: ./split_dataset/images/test  # 4000
+
+# number of classes
+nc : 1
+
+#class names
+names : ['license']
